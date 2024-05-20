@@ -45,7 +45,50 @@
  <li>
   <a href="http://localhost:3000">http://localhost:3000</a>
  </li>
- 
+</ol>
+
+<h2>🚀 Como Rodar os testes: </h2>
+<h3>User Test: </h3>
+<ol>
+ <li>
+  no terminal: docker stop controle_de_ponto_back
+ </li>
+ <li>
+  Comando: cd controle_de_ponto_back/
+ </li>
+ <li>
+  Comando: npm run test -- src/tests/usuarios/userController.test.ts
+ </li>
+</ol>
+
+<h3>Times Test: </h3>
+Para rodar os testes sera necessario parar o container do docker e rodar a aplicacao localmente para nao termos problemas com conexao de porta. Siga o passo a passo
+<ol>
+ <li>
+  no terminal digite o comando: docker stop controle_de_ponto_backend (se o container estiver rodando)
+ </li>
+ <li>
+  acesse a pasta controle_de_ponto_back
+ </li>
+  <li>
+  npm install
+ </li>
+ <li>
+  cd src/shared/infra
+ </li>
+ <li>
+  npx prisma generate
+ </li>
+ <li>
+  cd ../../..
+  </li>
+ </li>
+ <li>
+  (Para rodar o teste das rotas do usuario utilizadas no sistema) Comando: npm run test -- src/tests/entradas/timesController.test.ts
+ </li>
+ <li>
+  (Para rodar o teste das rotas de horarios utilizadas no sistema) Comando: npm run test -- src/tests/entradas/timesController.test.ts
+ </li>
 </ol>
 
 
