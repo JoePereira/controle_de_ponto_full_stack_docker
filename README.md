@@ -25,6 +25,12 @@
 <h2>🚀 Como Rodar a aplicacao: </h2>
 <ol>
  <li>
+  git clone https://github.com/JoePereira/controle_de_ponto_full_stack_docker.git
+ </li>
+ <li>
+  acesse a posta do projeto controle_de_ponto_fullstack
+ </li>
+ <li>
   docker compose build
  </li>
  <li>
