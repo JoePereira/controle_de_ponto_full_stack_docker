@@ -9,28 +9,16 @@
   <a href="https://nodejs.org/en" target="_blank">   <img align="center" alt="node" height="70" width="70" src="https://i.imgur.com/sHP6CDY.png"></a> 
   <a href="https://www.prisma.io/" target="_blank">   <img align="center" alt="prisma" height="70" width="70" src="https://i.imgur.com/fUjiKPd.png"></a> 
   <a href="https://expressjs.com/pt-br/" target="_blank">   <img align="center" alt="express" height="70" width="70" src="https://i.imgur.com/taK0j4r.png"></a> 
-    <a href="https://prettier.io/" target="_BLANK">
-        <img align="center" alt="Prettier" height="70" width="70" src="https://w7.pngwing.com/pngs/152/247/png-transparent-jest-hd-logo.png">
-    </a>
+  <a href="https://jestjs.io/pt-BR/" target="_BLANK"><img align="center" alt="Prettier" height="70" width="70" src="https://w7.pngwing.com/pngs/152/247/png-transparent-jest-hd-logo.png"></a>
+  <a href="https://www.docker.com/get-started/" target="_BLANK"><img align="center" alt="Prettier" height="70" width="70" src="https://logopng.com.br/logos/docker-27.png"></a>
+  
    <div style="display: inline_block"><br>
-    <a href="https://nextjs.org/" target="_BLANK">
-        <img align="center" alt="Next.js" height="70" width="70" src="https://static-00.iconduck.com/assets.00/nextjs-icon-512x512-y563b8iq.png">
-    </a> 
-    <a href="https://reactjs.org/" target="_BLANK">
-        <img align="center" alt="React" height="70" width="80" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png">
-    </a> 
-    <a href="https://www.typescriptlang.org/" target="_BLANK">
-        <img align="center" alt="TypeScript" height="70" width="70" src="https://i.imgur.com/UIp79so.png">
-    </a> 
-    <a href="https://tailwindcss.com/" target="_BLANK">
-        <img align="center" alt="Tailwind CSS" height="70" width="70" src="https://media.dev.to/cdn-cgi/image/width=1080,height=1080,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fdxy1c2bvl6odeo52dodk.jpg">
-    </a>
-   <a href="https://eslint.org/" target="_BLANK">
-        <img align="center" alt="ESLint" height="70" width="100" src="https://e7.pngegg.com/pngimages/518/938/png-clipart-eslint-logo-tech-companies.png">
-    </a>
-    <a href="https://prettier.io/" target="_BLANK">
-        <img align="center" alt="Prettier" height="70" width="70" src="https://w7.pngwing.com/pngs/164/151/png-transparent-prettier-hd-logo.png">
-    </a>
+    <a href="https://nextjs.org/" target="_BLANK"><img align="center" alt="Next.js" height="70" width="70" src="https://static-00.iconduck.com/assets.00/nextjs-icon-512x512-y563b8iq.png"></a> 
+    <a href="https://reactjs.org/" target="_BLANK"><img align="center" alt="React" height="70" width="80" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"></a> 
+    <a href="https://www.typescriptlang.org/" target="_BLANK"><img align="center" alt="TypeScript" height="70" width="70" src="https://i.imgur.com/UIp79so.png"></a> 
+    <a href="https://tailwindcss.com/" target="_BLANK"><img align="center" alt="Tailwind CSS" height="70" width="70" src="https://media.dev.to/cdn-cgi/image/width=1080,height=1080,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fdxy1c2bvl6odeo52dodk.jpg"></a>
+   <a href="https://eslint.org/" target="_BLANK"><img align="center" alt="ESLint" height="70" width="100" src="https://e7.pngegg.com/pngimages/518/938/png-clipart-eslint-logo-tech-companies.png"></a>
+    <a href="https://prettier.io/" target="_BLANK"><img align="center" alt="Prettier" height="70" width="70" src="https://w7.pngwing.com/pngs/164/151/png-transparent-prettier-hd-logo.png"></a>
   
 </div>
 
