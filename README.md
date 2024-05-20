@@ -43,7 +43,7 @@
   docker compose up
  </li>
  <li>
-  <a>http://localhost:3000</a>
+  <a href="http://localhost:3000">http://localhost:3000</a>
  </li>
  
 </ol>
