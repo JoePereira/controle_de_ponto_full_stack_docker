@@ -1,0 +1,43 @@
+version: "3.9"
+
+services:
+  frontend:
+    container_name: controle_de_ponto_frontend
+    image: controle_de_ponto_frontend
+    build:
+      context: ./controle_ponto_front
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
+    environment:
+      NEXT_PUBLIC_API_URL: http://localhost:3300
+    restart: always
+    depends_on:
+      - backend
+
+  backend:
+    container_name: controle_de_ponto_backend
+    image: controle_de_ponto_backend
+    build:
+      context: ./controle_de_ponto_back
+      dockerfile: Dockerfile
+    ports:
+      - 3300:3300
+    environment:
+      DATABASE_URL: "postgresql://postgres:admin@db:5432/controle_de_ponto?schema=public"
+
+  db:
+    container_name: db_controle_de_ponto
+    image: postgres:14
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: admin
+      POSTGRES_DB: controle_de_ponto
+    ports:
+      - 5432:5432
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata: {}
