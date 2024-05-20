@@ -34,36 +34,16 @@
   
 </div>
 
-<h2>🚀 Como Rodar os testes: </h2>
-<h3>User Test: </h3>
-<ul>
- <li>
-  Comando: npm run test -- src/tests/usuarios/userController.test.ts
- </li>
-</ul>
-
-<h3>Times Test: </h3>
-<ul>
- <li>
-  Comando: npm run test -- src/tests/entradas/timesController.test.ts
- </li>
-</ul>
-
 <h2>🚀 Como Rodar a aplicacao: </h2>
-<ul>
+<ol>
  <li>
-  npm install
+  docker compose build
  </li>
  <li>
-  cd src/shared/infra
+  docker compose up
  </li>
- <li>
-  npx prisma generate
- </li>
- <li>
-  cd ../../..
- </li>
- <li>
-  npm run start:dev
- </li>
-</ul>
+</ol>
+
+
+
+
