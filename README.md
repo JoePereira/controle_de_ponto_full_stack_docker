@@ -42,6 +42,10 @@
  <li>
   docker compose up
  </li>
+ <li>
+  http://localhost:3000
+ </li>
+ 
 </ol>
 
 
