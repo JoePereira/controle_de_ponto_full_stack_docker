@@ -1,6 +1,19 @@
 version: "3.9"
 
 services:
+  backend:
+    container_name: controle_de_ponto_backend
+    image: controle_de_ponto_backend
+    build:
+      context: ./controle_de_ponto_back
+      dockerfile: Dockerfile
+    ports:
+      - 3300:3300
+    environment:
+      DATABASE_URL: "postgresql://postgres:admin@db:5432/controle_de_ponto?schema=public"
+    depends_on:
+      - db
+
   frontend:
     container_name: controle_de_ponto_frontend
     image: controle_de_ponto_frontend
@@ -15,17 +28,6 @@ services:
     depends_on:
       - backend
 
-  backend:
-    container_name: controle_de_ponto_backend
-    image: controle_de_ponto_backend
-    build:
-      context: ./controle_de_ponto_back
-      dockerfile: Dockerfile
-    ports:
-      - 3300:3300
-    environment:
-      DATABASE_URL: "postgresql://postgres:admin@db:5432/controle_de_ponto?schema=public"
-
   db:
     container_name: db_controle_de_ponto
     image: postgres:14
@@ -38,6 +40,7 @@ services:
       - 5432:5432
     volumes:
       - pgdata:/var/lib/postgresql/data
+      - ./scripts/init.sql:/docker-entrypoint-initdb.d/init.sql
 
 volumes:
   pgdata: {}
