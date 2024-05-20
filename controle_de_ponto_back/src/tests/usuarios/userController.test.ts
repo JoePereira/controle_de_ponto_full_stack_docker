@@ -5,10 +5,6 @@ import { server, app } from "@/shared/infra/http/server";
 describe("User Controller", () => {
   afterAll(async () => {
     await prismaClient.usuario.deleteMany({
-      where: {
-        nome: "Joederson",
-      },
-    });
     await prismaClient.$disconnect();
     server.close();
   });

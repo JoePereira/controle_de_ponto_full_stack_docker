@@ -13,22 +13,6 @@ describe("Times Controller", () => {
   });
 
   afterAll(async () => {
-    const newUser = await prismaClient.usuario.findFirst({
-      where: { nome: "Joederson" },
-    });
-    if (newUser) {
-      await prismaClient.horarios.deleteMany({
-        where: {
-          usuarioId: newUser?.id,
-        },
-      });
-    }
-    await prismaClient.usuario.deleteMany({
-      where: {
-        nome: "Joederson",
-      },
-    });
-
     await prismaClient.$disconnect();
     server.close();
   });
