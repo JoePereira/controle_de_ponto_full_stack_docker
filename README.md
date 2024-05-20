@@ -48,21 +48,8 @@
 </ol>
 
 <h2>🚀 Como Rodar os testes: </h2>
-<h3>User Test: </h3>
-<ol>
- <li>
-  no terminal: docker stop controle_de_ponto_back
- </li>
- <li>
-  Comando: cd controle_de_ponto_back/
- </li>
- <li>
-  Comando: npm run test -- src/tests/usuarios/userController.test.ts
- </li>
-</ol>
 
-<h3>Times Test: </h3>
-Para rodar os testes sera necessario parar o container do docker e rodar a aplicacao localmente para nao termos problemas com conexao de porta. Siga o passo a passo
+<h4>Para rodar os testes sera necessario parar o container do docker e rodar a aplicacao localmente para nao termos problemas com conexao de porta. Siga o passo a passo</h4>
 <ol>
  <li>
   no terminal digite o comando: docker stop controle_de_ponto_backend (se o container estiver rodando)
