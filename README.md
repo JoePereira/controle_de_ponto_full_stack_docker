@@ -28,7 +28,7 @@
   git clone https://github.com/JoePereira/controle_de_ponto_full_stack_docker.git
  </li>
  <li>
-  acesse a pasta do projeto controle_de_ponto_full_stack_docker (pasta raiz do projeto
+  acesse a pasta do projeto controle_de_ponto_full_stack_docker (pasta raiz do projeto)
  </li>
  <li>
   docker compose build
